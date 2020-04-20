@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity<cobalagi> extends AppCompatActivity {
     WebView webView;
 
     @Override
@@ -18,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
         WebView myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.loadUrl("http://hirupmotekar.com/");
 
+
+
     }
+
+
 }
